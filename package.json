@@ -1,27 +1,41 @@
 {
-  "name": "@yijie/utils",
+  "name": "@yj_lin/utils",
   "version": "0.0.1",
-  "description": "yijie utils",
-  "private": false,
+  "description": "yj_lin utils",
   "type": "module",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/haidaisiganbei/utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/haidaisiganbei/utils/issues"
+  },
   "exports": {
     ".": {
       "import": "./dist/index.esm.js",
       "require": "./dist/index.cjs.js"
     }
   },
-  "scripts": {
-    "build": "rollup -c"
-  },
   "files": [
     "dist"
   ],
-  "keywords": ["utils"],
-  "author": "yijie",
-  "license": "ISC",
+  "keywords": [
+    "utils"
+  ],
+  "author": "yj_lin",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c"
+  },
   "devDependencies": {
-    "rollup": "^4.12.0"
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^9.2.6",
+    "@semantic-release/npm": "^11.0.2",
+    "@semantic-release/release-notes-generator": "^12.1.0",
+    "rollup": "^4.12.0",
+    "semantic-release": "^23.0.2"
   }
 }
