@@ -3,8 +3,8 @@
   "version": "0.0.1",
   "description": "yj_lin utils",
   "type": "module",
-  "main": "dist/index.cjs.js",
-  "module": "dist/index.esm.js",
+  "main": "dist/index.umd.cjs",
+  "module": "dist/index.esm.mjs",
   "repository": {
     "type": "git",
     "url": "https://github.com/haidaisiganbei/utils.git"
@@ -14,8 +14,8 @@
   },
   "exports": {
     ".": {
-      "import": "./dist/index.esm.js",
-      "require": "./dist/index.cjs.js"
+      "import": "./dist/index.esm.mjs",
+      "require": "./dist/index.umd.cjs"
     }
   },
   "files": [
