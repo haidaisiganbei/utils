@@ -2,6 +2,7 @@
   "name": "@yijie/utils",
   "version": "0.0.1",
   "description": "yijie utils",
+  "private": false,
   "type": "module",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
