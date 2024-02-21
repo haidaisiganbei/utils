@@ -1,7 +1,2 @@
-const welcome = (msg)=>{
-    console.log("hello "+msg);
-}
-
-export {
-    welcome
-}
+export * from './base'
+export * from './is'
