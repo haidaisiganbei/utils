@@ -1,6 +1,6 @@
 {
   "name": "@yj_lin/utils",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "yj_lin utils",
   "type": "module",
   "main": "dist/index.umd.cjs",
