@@ -1,6 +1,6 @@
 {
   "name": "@yj_lin/utils",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "yj_lin utils",
   "type": "module",
   "main": "dist/index.umd.cjs",
@@ -27,7 +27,8 @@
   "author": "yj_lin",
   "license": "MIT",
   "scripts": {
-    "build": "rollup -c"
+    "build": "rollup -c",
+    "release": "bumpp --commit --push --tag && npm publish"
   },
   "devDependencies": {
     "@semantic-release/changelog": "^6.0.3",
@@ -35,6 +36,7 @@
     "@semantic-release/github": "^9.2.6",
     "@semantic-release/npm": "^11.0.2",
     "@semantic-release/release-notes-generator": "^12.1.0",
+    "bumpp": "^9.3.0",
     "rollup": "^4.12.0",
     "semantic-release": "^23.0.2"
   }
